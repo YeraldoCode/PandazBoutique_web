@@ -276,6 +276,7 @@ p {
 
 .mbt1{
   padding-top: 1.25rem;
+  color: #000000;
 }
 
 a.link{
@@ -306,3 +307,4 @@ ul.errorlist{
   padding: 0;
   margin-bottom: 10px; /* Espacio entre el logo y el texto */
 }
+
