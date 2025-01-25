@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background: white;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
