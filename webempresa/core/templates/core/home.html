@@ -1,0 +1,52 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+
+<h1 class="site-heading text-center text-white d-none d-lg-block">
+  <span class="site-heading-upper text-primary mb-3">Ropa americana, al mejor precio.</span>
+  <img src="{% static 'core/img/logoPanda.png' %}" alt="" class="logoPanda">
+</h1>
+
+    <!-- Cabecera -->
+
+    <section class="page-section clearfix">
+      <div class="container">
+        <div class="intro">
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'core/img/intro.png' %}" alt="">
+          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Descubre tu estilo único</span>
+              <span class="section-heading-lower">Te encantará</span>
+            </h2>
+            <p class="mb-3">Seleccionamos solo las mejores prendas de segunda mano, garantizando calidad y estilo.
+               Una vez que descubras nuestra colección, encontrarás piezas únicas que reflejan tu estilo personal.
+               ¡Renueva tu guardarropa con ropa americana de bazar de alta calidad a precios increíbles
+            </p>
+            <div class="intro-button mx-auto">
+              <a class="btn btn-primary btn-xl" href="store.html">Visítanos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mensaje -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Compromiso total</span>
+                <span class="section-heading-lower">Garantizado</span>
+              </h2>
+              <p class="mb-0">En nuestro bazar de moda americana, nos dedicamos a ofrecerte prendas de alta calidad a precios accesibles. 
+                Cada pieza es cuidadosamente seleccionada para garantizar que encuentres ropa única y en excelentes condiciones. 
+                Nuestro compromiso es brindarte una experiencia de compra excepcional, ayudándote a renovar tu guardarropa con estilo y confianza. 
+                ¡Descubre la diferencia de comprar con nosotros y luce un look auténtico y exclusivo!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% endblock %}

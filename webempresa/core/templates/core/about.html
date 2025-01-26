@@ -1,0 +1,40 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+
+ 
+<h1 class="site-heading text-center text-white d-none d-lg-block">
+  <span class="site-heading-upper text-primary mb-3">Un poco sobre nosotros</span>
+  <img src="{% static 'core/img/logoPanda.png' %}" alt="" class="logoPanda">
+</h1>
+
+
+
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/about.jpg' %}" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Apoyo</span>
+              <span class="section-heading-lower">Nuestra historia</span>
+            </h2>
+            <p>PandazBoutique es una boutique online creada por mi (Yeraldo) un estudiante de Ingeniera en desarrollo de software.</p>
+            <p>Fue creada principalmente para tener un apoyo economico extra para centrarme en mis estudios. 
+              nustras prendas son de alta calidad y a precios accesibles.</p>
+            <p class="mb-0">Nuestro objetivo es que te sientas comodo con nuestras prendas y que puedas lucir un estilo unico.</p>
+            <p>
+              Puedes contactarme mediante whatsapp. <br>
+              Nuestras ventas son a domicilio en Apodaca, Nuevo Leon y sus alrededores.
+            </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ {% endblock %}
+  

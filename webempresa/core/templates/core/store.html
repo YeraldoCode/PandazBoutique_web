@@ -1,0 +1,56 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+      <span class="site-heading-upper text-primary mb-3">Nuestra Ubicacion</span>
+      <img src="{% static 'core/img/logoPanda.png' %}" alt="" class="logoPanda">
+    </h1>
+
+
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-5">
+                <span class="section-heading-upper">Encuentranos</span>
+              </h2>
+              <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                <li class="list-unstyled-item list-hours-item d-flex">
+                 Entregas - Lunes a Domingos
+                  <span class="ml-auto">15:00 a 22:00</span>
+                </li>
+              </ul>
+              <p class="address mb-5">
+                <em>
+                  <strong>Puntos de entrega (Apodaca)</strong>
+                  <br>
+                    Mi tiendita Metroplex.
+                  <br>
+                  Plaza Sendero Apodaca.
+                  <br>
+                  Walmart Apodaca E-sexta.
+                  <br>
+                  Soriana Fresnos.
+                  <br>
+                  Smart Av. Afganistan.
+                </em>
+              </p>
+              <p class="mb-0">
+                <small>
+                </small>
+                <strong>Contáctanos</strong>
+                <p>Haz clic en el botón de abajo para enviarnos un mensaje por WhatsApp.</p>
+                <a href="https://wa.me/528125897393?text=Hola%20quiero%20más%20información%20sobre%20sus%20servicios" target="_blank">
+                    <button >Contactar por WhatsApp</button>
+                </a>
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% endblock %}
